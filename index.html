@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab</title>
+    <link rel="icon" type="image/png" href="img/favicon.png"/>
+    <link rel="stylesheet" href="css/site.css">
+</head>
+<body>
+    
+    <div class="perfil">
+        <img src="img/perfil-del-usuario.png" id="avatar" alt="imagen de perfil">
+    </div>
+
+    <div class="data">
+        <label class="text-name">Name</label>
+        <div class="box-container">
+            <input id="name" type="text" name="nombre" placeholder="Nombre"/> 
+        </div>
+
+        <label class="text-lastName">Last name</label>
+        <div class="box-container">
+            <input id="last-name" type="text"  name="apellido" placeholder="Apellido"/>
+        </div>
+        
+    </div>
+    <button class="button" onclick="console.log(document.getElementById('last-name').value)">Update</button>
+    <script type="text/javascript" src="js/demo.js"></script>
+
+</body>
+</html>

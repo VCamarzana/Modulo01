@@ -1,0 +1,50 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.perfil{
+    text-align: center;
+    margin: 20px 45% 20px 30%;
+    padding: 20px;
+}
+
+img{ 
+    width: 100px;
+    border-radius: 50%;
+}
+
+.data{
+    margin: auto;
+    width: 50%;
+    padding: 16px;
+    font-weight: bold;
+}
+
+
+input{
+    margin: 10px 0 30px 0;
+    width: 70%;
+    padding: 10px;
+}
+
+button{
+    background-color: rgb(226, 186, 6);
+    padding: 10px;
+    border: 0ch;
+    color: white;
+    font-size: 16px;
+    width: 10%;
+    min-width: 100px;
+    margin: 10px 25% 10px 25%;
+}
+
+button:active{
+    position: relative;
+    top: 1px;
+    box-shadow: inset 0px 0px 10px 0px rgb(112, 65, 8);
+}
+
+::placeholder{
+    color: rgb(168, 168, 168);
+    font-style: italic;
+}
