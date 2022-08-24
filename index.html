@@ -9,24 +9,25 @@
     <link rel="stylesheet" href="css/site.css">
 </head>
 <body>
-    
-    <div class="perfil">
-        <img src="img/perfil-del-usuario.png" id="avatar" alt="imagen de perfil">
-    </div>
-
-    <div class="data">
-        <label class="text-name">Name</label>
-        <div class="box-container">
-            <input id="name" type="text" name="nombre" placeholder="Nombre"/> 
+    <div class="container">
+        <div class="perfil">
+            <img src="img/perfil-del-usuario.png" id="avatar" alt="imagen de perfil">
         </div>
 
-        <label class="text-lastName">Last name</label>
-        <div class="box-container">
-            <input id="last-name" type="text"  name="apellido" placeholder="Apellido"/>
+        <div class="data">
+            <label class="text-name">Name</label>
+            <div class="box-container">
+                <input id="name" type="text" name="nombre" placeholder="Nombre"/> 
+            </div>
+
+            <label class="text-lastName">Last name</label>
+            <div class="box-container">
+                <input id="last-name" type="text"  name="apellido" placeholder="Apellido"/>
+            </div>
+       
+            <button class="button" onclick="console.log(document.getElementById('name').value,document.getElementById('last-name').value)">Update</button>
         </div>
-        
     </div>
-    <button class="button" onclick="console.log(document.getElementById('last-name').value)">Update</button>
     <script type="text/javascript" src="js/demo.js"></script>
 
 </body>
