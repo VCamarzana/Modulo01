@@ -1,2 +1,2 @@
 # Modulo01
-Introduction to Javascritpt
+Introduction to Javascript.
